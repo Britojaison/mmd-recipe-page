@@ -52,7 +52,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           className="inline-flex rounded-full bg-white/92 px-4 py-3 shadow-[0_10px_30px_rgba(24,19,66,0.12)] backdrop-blur"
         >
           <Image
-            src="/images/home_page/image 6.png"
+            src="/images/home_page/logo.png"
             alt="MilkyMist home"
             width={572}
             height={220}
