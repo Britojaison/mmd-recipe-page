@@ -49,7 +49,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       <div className="absolute left-4 top-4 z-20 sm:left-6 sm:top-6">
         <Link
           href="/"
-          className="inline-flex rounded-full bg-white/92 px-4 py-3 shadow-[0_10px_30px_rgba(24,19,66,0.12)] backdrop-blur"
+          className="inline-flex rounded-full bg-white/92 px-2 py-1.5 sm:px-3 sm:py-2 md:px-4 md:py-3 shadow-[0_10px_30px_rgba(24,19,66,0.12)] backdrop-blur"
         >
           <Image
             src="/images/home_page/logo.png"
@@ -57,7 +57,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             width={572}
             height={220}
             priority
-            className="h-auto w-[130px]"
+            className="h-auto w-[60px] sm:w-[75px] md:w-[100px]"
           />
         </Link>
       </div>
@@ -77,17 +77,17 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1180px] px-4 py-14 text-center md:py-18 lg:py-20">
-        <h1 className="text-5xl font-black tracking-[-0.06em] text-[#26216f] md:text-6xl lg:text-[4.1rem]">
+      <section className="mx-auto max-w-[1180px] px-4 py-10 text-center sm:py-14 md:py-18 lg:py-20">
+        <h1 className="text-3xl font-black tracking-[-0.06em] text-[#26216f] sm:text-4xl md:text-5xl lg:text-[4.1rem]">
           {category.heading}
         </h1>
-        <p className="mx-auto mt-4 max-w-[860px] text-[18px] leading-8 text-[#56516d]">
+        <p className="mx-auto mt-3 max-w-[860px] text-[15px] leading-7 text-[#56516d] sm:mt-4 sm:text-[18px] sm:leading-8">
           {category.description}
         </p>
 
         <div
           id="recipes"
-          className="mt-12 grid gap-x-6 gap-y-10 md:grid-cols-2 xl:grid-cols-3"
+          className="mt-8 grid gap-x-4 gap-y-8 grid-cols-2 sm:mt-12 sm:gap-x-6 sm:gap-y-10 xl:grid-cols-3"
         >
           {category.recipes.map((recipe) => (
             <Link
@@ -95,17 +95,17 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               href={`/categories/${category.slug}/${recipe.slug}`}
               className="block text-center"
             >
-              <div className="relative aspect-[1.06/0.88] overflow-hidden rounded-[20px] bg-[#efe8df] shadow-[0_14px_35px_rgba(27,20,66,0.07)]">
+              <div className="relative aspect-[1.06/0.88] overflow-hidden rounded-[14px] bg-[#efe8df] shadow-[0_14px_35px_rgba(27,20,66,0.07)] sm:rounded-[20px]">
                 <Image
                   src={recipe.image}
                   alt={recipe.alt ?? recipe.title}
                   fill
                   unoptimized
-                  sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
                   className="object-cover"
                 />
               </div>
-              <h2 className="mt-5 text-[20px] font-semibold tracking-[0.01em] text-[#24206b] md:text-[22px]">
+              <h2 className="mt-3 text-[17px] font-semibold tracking-[0.01em] text-[#24206b] sm:mt-5 sm:text-[20px] md:text-[22px]">
                 {recipe.title}
               </h2>
             </Link>
