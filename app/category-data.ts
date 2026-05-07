@@ -47,7 +47,7 @@ export const categoryPages: CategoryData[] = [
     title: "Indian Sweets",
     heading: "Explore Indian Sweets",
     description:
-      "Discover traditional favorites made richer and creamier with MilkyMist Condensed Milk.",
+      "Discover traditional favorites made richer and creamier with MilkyMist Condensed Milk range.",
     homeImage: "/images/home_page/aec6e5c32ea1bd98038072ff974fc443a881291b.png",
     recipes: [
       createRecipe({
@@ -57,9 +57,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A rich milk-based sweet finished with a glossy chocolate layer and a soft bite.",
         intro:
-          "Discover a festive barfi recipe made richer with MilkyMist Condensed Milk.",
+          "Discover a festive barfi recipe made richer with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1 cup MilkyMist Condensed Milk",
+          "1 cup MilkyMist Chocolate Condensed Milk",
           "2 cups milk powder",
           "1/2 cup cocoa powder",
           "2 tbsp ghee",
@@ -83,9 +83,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "Soft laddoos rolled in coconut with a fudgy chocolate center and creamy sweetness.",
         intro:
-          "Discover coconut laddoos made extra indulgent with MilkyMist Condensed Milk.",
+          "Discover coconut laddoos made extra indulgent with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1 cup MilkyMist Condensed Milk",
+          "1 cup MilkyMist Chocolate Condensed Milk",
           "2 cups desiccated coconut",
           "2 tbsp cocoa powder",
           "1 tbsp ghee",
@@ -109,9 +109,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A creamy rice kheer with mellow chocolate notes and a luxurious condensed milk finish.",
         intro:
-          "Discover a comforting kheer recipe made richer with MilkyMist Condensed Milk.",
+          "Discover a comforting kheer recipe made richer with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1 cup MilkyMist Condensed Milk",
+          "1 cup MilkyMist Chocolate Condensed Milk",
           "1/4 cup basmati rice",
           "4 cups milk",
           "2 tbsp cocoa powder",
@@ -135,9 +135,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "Festive modaks with a chocolatey filling and a smooth condensed milk richness.",
         intro:
-          "Discover a celebratory modak recipe made richer with MilkyMist Condensed Milk.",
+          "Discover a celebratory modak recipe made richer with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1 cup MilkyMist Condensed Milk",
+          "1 cup MilkyMist Chocolate Condensed Milk",
           "1 cup milk powder",
           "2 tbsp cocoa powder",
           "1 tbsp ghee",
@@ -160,7 +160,7 @@ export const categoryPages: CategoryData[] = [
     title: "Cakes and Bakes",
     heading: "Explore Cakes & Bakes",
     description:
-      "Discover a variety of cakes and baked delights made richer with MilkyMist Condensed Milk.",
+      "Discover a variety of cakes and baked delights made richer with MilkyMist Condensed Milk range.",
     homeImage: "/images/home_page/07f45ad3ef0650edc516fe363faa6113ca454e99.png",
     recipes: [
       createRecipe({
@@ -170,9 +170,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A decadent molten cake with a glossy center and deep chocolate flavor.",
         intro:
-          "Discover a rich lava cake made more indulgent with MilkyMist Condensed Milk.",
+          "Discover a rich lava cake made more indulgent with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1 cup MilkyMist Condensed Milk",
+          "1 cup MilkyMist Chocolate Condensed Milk",
           "1/2 cup dark chocolate",
           "1/2 cup butter",
           "1/2 cup all-purpose flour",
@@ -277,9 +277,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A fast microwave mug cake with a soft center and rich chocolate taste.",
         intro:
-          "Discover a fuss-free mug cake made richer with MilkyMist Condensed Milk.",
+          "Discover a fuss-free mug cake made richer with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1/2 cup MilkyMist Condensed Milk",
+          "1/2 cup MilkyMist Chocolate Condensed Milk",
           "4 tbsp all-purpose flour",
           "2 tbsp cocoa powder",
           "2 tbsp milk",
@@ -327,7 +327,7 @@ export const categoryPages: CategoryData[] = [
     title: "Desserts",
     heading: "Explore Desserts",
     description:
-      "Find smooth, chocolatey desserts that turn extra indulgent with MilkyMist Condensed Milk.",
+      "Find smooth, chocolatey desserts that turn extra indulgent with MilkyMist Chocolate Condensed Milk.",
     homeImage: "/images/home_page/f6496f06117faaf1ed931d064263575b9476fcda.png",
     recipes: [
       createRecipe({
@@ -337,9 +337,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A fudgy brownie with a glossy top and a rich chocolate condensed milk base.",
         intro:
-          "Discover a brownie made more indulgent with MilkyMist Condensed Milk.",
+          "Discover a brownie made more indulgent with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1 cup MilkyMist Condensed Milk",
+          "1 cup MilkyMist Chocolate Condensed Milk",
           "1/2 cup dark chocolate",
           "1/2 cup butter",
           "3/4 cup flour",
@@ -362,9 +362,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A silky mousse with deep chocolate flavor and a velvety condensed milk finish.",
         intro:
-          "Discover a smooth mousse made richer with MilkyMist Condensed Milk.",
+          "Discover a smooth mousse made richer with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1 cup MilkyMist Condensed Milk",
+          "1 cup MilkyMist Chocolate Condensed Milk",
           "1 cup whipped cream",
           "1/2 cup melted dark chocolate",
           "1 tsp vanilla essence",
@@ -386,9 +386,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A creamy frozen dessert with rich chocolate notes and a smooth finish.",
         intro:
-          "Discover an ice cream recipe made creamier with MilkyMist Condensed Milk.",
+          "Discover an ice cream recipe made creamier with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1 cup MilkyMist Condensed Milk",
+          "1 cup MilkyMist Chocolate Condensed Milk",
           "2 cups chilled cream",
           "1/3 cup cocoa powder",
           "1 tsp vanilla essence",
@@ -410,7 +410,7 @@ export const categoryPages: CategoryData[] = [
     title: "Beverages",
     heading: "Explore Beverages",
     description:
-      "Sip your way through chilled shakes, smoothies, and coffee drinks made creamier with MilkyMist Condensed Milk.",
+      "Sip your way through chilled shakes, smoothies, and coffee drinks made creamier with MilkyMist Condensed Milk range.",
     homeImage: "/images/home_page/3994e069362ec0fe000e8c91ca67d85eb01bb4bd.png",
     recipes: [
       createRecipe({
@@ -420,9 +420,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A fruity chocolate smoothie with a creamy texture and refreshing finish.",
         intro:
-          "Discover a smoothie made creamier with MilkyMist Condensed Milk.",
+          "Discover a smoothie made creamier with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1/2 cup MilkyMist Condensed Milk",
+          "1/2 cup MilkyMist Chocolate Condensed Milk",
           "1 cup strawberries",
           "1 tbsp cocoa powder",
           "1 cup chilled milk",
@@ -442,9 +442,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A thick banana shake blended with chocolate and condensed milk for a rich sip.",
         intro:
-          "Discover a banana shake made creamier with MilkyMist Condensed Milk.",
+          "Discover a banana shake made creamier with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1/2 cup MilkyMist Condensed Milk",
+          "1/2 cup MilkyMist Chocolate Condensed Milk",
           "2 ripe bananas",
           "1 tbsp cocoa powder",
           "1 1/2 cups chilled milk",
@@ -464,9 +464,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A café-style cold coffee with chocolate notes and a smooth condensed milk sweetness.",
         intro:
-          "Discover a cold coffee made creamier with MilkyMist Condensed Milk.",
+          "Discover a cold coffee made creamier with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1/2 cup MilkyMist Condensed Milk",
+          "1/2 cup MilkyMist Chocolate Condensed Milk",
           "1 cup chilled milk",
           "1 tbsp instant coffee",
           "1 tbsp cocoa powder",
@@ -486,9 +486,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A rich and creamy milkshake blended with chocolate condensed milk for a smooth, indulgent drink.",
         intro:
-          "Discover a milkshake made creamier with MilkyMist Condensed Milk.",
+          "Discover a milkshake made creamier with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1/2 cup MilkyMist Condensed Milk",
+          "1/2 cup MilkyMist Chocolate Condensed Milk",
           "2 cups chilled milk",
           "2 tbsp cocoa powder",
           "1 scoop vanilla ice cream",
@@ -508,9 +508,9 @@ export const categoryPages: CategoryData[] = [
         description:
           "A thick shake with nutty peanut flavor and a creamy chocolate finish.",
         intro:
-          "Discover a peanut shake made creamier with MilkyMist Condensed Milk.",
+          "Discover a peanut shake made creamier with MilkyMist Chocolate Condensed Milk.",
         ingredients: [
-          "1/2 cup MilkyMist Condensed Milk",
+          "1/2 cup MilkyMist Chocolate Condensed Milk",
           "2 tbsp peanut butter",
           "1 1/2 cups chilled milk",
           "1 tbsp cocoa powder",

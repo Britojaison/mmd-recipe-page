@@ -113,7 +113,7 @@ export default function Home() {
           Most Loved Recipes
         </h2>
         <p className="mx-auto mt-3 max-w-[560px] text-[14px] leading-6 text-[#5f5a75] sm:mt-4 sm:text-[16px] sm:leading-7">
-          Crafted with MilkyMist Condensed Milk, these recipes are rich,
+          Crafted with MilkyMist Condensed Milk range, these recipes are rich,
           creamy, and perfect for every sweet craving.
         </p>
 
