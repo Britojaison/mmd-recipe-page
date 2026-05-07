@@ -14,35 +14,35 @@ const featuredRecipes = categoryPages
 const testimonials = [
   {
     name: "Umar",
-    avatar: "/images/home_page/Ellipse 10.png",
+    avatar: "/images/home_page/Ellipse 10.webp",
     quote:
       "Rich, delightful and genuinely easy to work with in the kitchen.",
     stars: 2,
   },
   {
     name: "Rahul Menon",
-    avatar: "/images/home_page/Ellipse 12.png",
+    avatar: "/images/home_page/Ellipse 12.webp",
     quote:
       "MilkyMist made my desserts feel smoother and creamier from the very first batch.",
     stars: 5,
   },
   {
     name: "Anjali Nair",
-    avatar: "/images/home_page/Ellipse 9.png",
+    avatar: "/images/home_page/Ellipse 9.webp",
     quote:
       "The texture it adds to kulfi and mousse is so lush that guests notice immediately.",
     stars: 5,
   },
   {
     name: "Vishnu Prasad",
-    avatar: "/images/home_page/Ellipse 10.png",
+    avatar: "/images/home_page/Ellipse 10.webp",
     quote:
       "The balanced sweetness is the best part. It saves time and tastes consistently good.",
     stars: 5,
   },
   {
     name: "Anya",
-    avatar: "/images/home_page/Ellipse 13.png",
+    avatar: "/images/home_page/Ellipse 13.webp",
     quote:
       "From puddings to shakes, this became a kitchen staple in just a week.",
     stars: 2,
@@ -65,7 +65,7 @@ export default function Home() {
       <section className="bg-[#f5ede2]">
         <div className="mx-auto w-full max-w-[1920px]">
           <Image
-            src="/images/home_page/Rectangle 2.png"
+            src="/images/home_page/Rectangle 2.webp"
             alt="MilkyMist hero background"
             width={5760}
             height={2800}

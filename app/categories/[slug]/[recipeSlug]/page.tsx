@@ -61,7 +61,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
           className="inline-flex rounded-full bg-white/92 px-2 py-1.5 sm:px-3 sm:py-2 md:px-4 md:py-3 shadow-[0_10px_30px_rgba(24,19,66,0.12)] backdrop-blur"
         >
           <Image
-            src="/images/home_page/logo.png"
+            src="/images/home_page/logo.webp"
             alt="MilkyMist home"
             width={572}
             height={220}

@@ -35,7 +35,7 @@ function createRecipe(input: Omit<RecipeCard, "slug">): RecipeCard {
 }
 
 export const sharedRecipeHero = {
-  image: "/images/cakes&bakes/Rectangle 2.png",
+  image: "/images/cakes&bakes/Rectangle 2.webp",
   alt: "MilkyMist condensed milk hero",
   width: 5760,
   height: 2000,
@@ -48,11 +48,11 @@ export const categoryPages: CategoryData[] = [
     heading: "Explore Indian Sweets",
     description:
       "Discover traditional favorites made richer and creamier with MilkyMist Condensed Milk range.",
-    homeImage: "/images/home_page/aec6e5c32ea1bd98038072ff974fc443a881291b.png",
+    homeImage: "/images/home_page/aec6e5c32ea1bd98038072ff974fc443a881291b.webp",
     recipes: [
       createRecipe({
         title: "Chocolate Barfi",
-        image: "/images/indian_sweets/chocolate-barfi.jpg",
+        image: "/images/indian_sweets/chocolate-barfi.webp",
         categoryLabel: "Indian Sweet",
         description:
           "A rich milk-based sweet finished with a glossy chocolate layer and a soft bite.",
@@ -78,7 +78,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Chocolate Coconut Laddoo",
-        image: "/images/indian_sweets/chocolate-coconut-laddoo.jpg",
+        image: "/images/indian_sweets/chocolate-coconut-laddoo.webp",
         categoryLabel: "Indian Sweet",
         description:
           "Soft laddoos rolled in coconut with a fudgy chocolate center and creamy sweetness.",
@@ -104,7 +104,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Chocolate Kheer",
-        image: "/images/indian_sweets/chocolate-kheer.jpg",
+        image: "/images/indian_sweets/chocolate-kheer.webp",
         categoryLabel: "Classic",
         description:
           "A creamy rice kheer with mellow chocolate notes and a luxurious condensed milk finish.",
@@ -130,7 +130,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Chocolate Modak",
-        image: "/images/indian_sweets/chocolate-modak.jpg",
+        image: "/images/indian_sweets/chocolate-modak.webp",
         categoryLabel: "Festive",
         description:
           "Festive modaks with a chocolatey filling and a smooth condensed milk richness.",
@@ -161,11 +161,11 @@ export const categoryPages: CategoryData[] = [
     heading: "Explore Cakes & Bakes",
     description:
       "Discover a variety of cakes and baked delights made richer with MilkyMist Condensed Milk range.",
-    homeImage: "/images/home_page/07f45ad3ef0650edc516fe363faa6113ca454e99.png",
+    homeImage: "/images/home_page/07f45ad3ef0650edc516fe363faa6113ca454e99.webp",
     recipes: [
       createRecipe({
         title: "Chocolate Lava Cake",
-        image: "/images/cakes&bakes/Rectangle 7.png",
+        image: "/images/cakes&bakes/Rectangle 7.webp",
         categoryLabel: "Chocolate",
         description:
           "A decadent molten cake with a glossy center and deep chocolate flavor.",
@@ -191,7 +191,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Classic Vanilla Cake",
-        image: "/images/cakes&bakes/Rectangle 8.png",
+        image: "/images/cakes&bakes/Rectangle 8.webp",
         categoryLabel: "Cake",
         description:
           "A soft and airy vanilla cake with a smooth crumb and a gentle condensed milk sweetness.",
@@ -218,7 +218,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Eggless Cake",
-        image: "/images/cakes&bakes/Rectangle 9.png",
+        image: "/images/cakes&bakes/Rectangle 9.webp",
         categoryLabel: "Cake",
         description:
           "A light eggless bake with a tender crumb and a balanced sweetness.",
@@ -245,7 +245,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Rainbow Cake",
-        image: "/images/cakes&bakes/Rectangle 10.png",
+        image: "/images/cakes&bakes/Rectangle 10.webp",
         categoryLabel: "Celebration",
         description:
           "A cheerful layered cake with vibrant colors and a soft condensed milk sponge.",
@@ -272,7 +272,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Choco Mug Cake",
-        image: "/images/cakes&bakes/Rectangle 11.png",
+        image: "/images/cakes&bakes/Rectangle 11.webp",
         categoryLabel: "Quick Treat",
         description:
           "A fast microwave mug cake with a soft center and rich chocolate taste.",
@@ -296,7 +296,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Carrot Cake",
-        image: "/images/cakes&bakes/Rectangle 12.png",
+        image: "/images/cakes&bakes/Rectangle 12.webp",
         categoryLabel: "Cake",
         description:
           "A moist spiced carrot cake with creamy layers and mellow sweetness.",
@@ -328,11 +328,11 @@ export const categoryPages: CategoryData[] = [
     heading: "Explore Desserts",
     description:
       "Find smooth, chocolatey desserts that turn extra indulgent with MilkyMist Chocolate Condensed Milk.",
-    homeImage: "/images/home_page/f6496f06117faaf1ed931d064263575b9476fcda.png",
+    homeImage: "/images/home_page/f6496f06117faaf1ed931d064263575b9476fcda.webp",
     recipes: [
       createRecipe({
         title: "Chocolate Brownie",
-        image: "/images/desserts/chocolate-brownie.jpg",
+        image: "/images/desserts/chocolate-brownie.webp",
         categoryLabel: "Dessert",
         description:
           "A fudgy brownie with a glossy top and a rich chocolate condensed milk base.",
@@ -357,7 +357,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Chocolate Mousse",
-        image: "/images/desserts/chocolate-mousse.jpg",
+        image: "/images/desserts/chocolate-mousse.webp",
         categoryLabel: "Dessert",
         description:
           "A silky mousse with deep chocolate flavor and a velvety condensed milk finish.",
@@ -381,7 +381,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Chocolate Ice Cream",
-        image: "/images/desserts/chocoalte-icecream.jpg",
+        image: "/images/desserts/chocoalte-icecream.webp",
         categoryLabel: "Dessert",
         description:
           "A creamy frozen dessert with rich chocolate notes and a smooth finish.",
@@ -411,11 +411,11 @@ export const categoryPages: CategoryData[] = [
     heading: "Explore Beverages",
     description:
       "Sip your way through chilled shakes, smoothies, and coffee drinks made creamier with MilkyMist Condensed Milk range.",
-    homeImage: "/images/home_page/3994e069362ec0fe000e8c91ca67d85eb01bb4bd.png",
+    homeImage: "/images/home_page/3994e069362ec0fe000e8c91ca67d85eb01bb4bd.webp",
     recipes: [
       createRecipe({
         title: "Chocolate Strawberry Smoothie",
-        image: "/images/Beverages/chocoalte-strawberry-smoothie.jpg",
+        image: "/images/Beverages/chocoalte-strawberry-smoothie.webp",
         categoryLabel: "Beverage",
         description:
           "A fruity chocolate smoothie with a creamy texture and refreshing finish.",
@@ -437,7 +437,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Chocolate Banana Shake",
-        image: "/images/Beverages/chocolate-banana-shake.jpg",
+        image: "/images/Beverages/chocolate-banana-shake.webp",
         categoryLabel: "Beverage",
         description:
           "A thick banana shake blended with chocolate and condensed milk for a rich sip.",
@@ -459,7 +459,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Chocolate Cold Coffee",
-        image: "/images/Beverages/chocolate-cold-coffee.jpg",
+        image: "/images/Beverages/chocolate-cold-coffee.webp",
         categoryLabel: "Beverage",
         description:
           "A café-style cold coffee with chocolate notes and a smooth condensed milk sweetness.",
@@ -481,7 +481,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Chocolate Milkshake",
-        image: "/images/Beverages/chocolate-milkshake.jpg",
+        image: "/images/Beverages/chocolate-milkshake.webp",
         categoryLabel: "Chocolate",
         description:
           "A rich and creamy milkshake blended with chocolate condensed milk for a smooth, indulgent drink.",
@@ -503,7 +503,7 @@ export const categoryPages: CategoryData[] = [
       }),
       createRecipe({
         title: "Chocolate Peanut Shake",
-        image: "/images/Beverages/chocolate-peanut-shake.jpg",
+        image: "/images/Beverages/chocolate-peanut-shake.webp",
         categoryLabel: "Beverage",
         description:
           "A thick shake with nutty peanut flavor and a creamy chocolate finish.",
