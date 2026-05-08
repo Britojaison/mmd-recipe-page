@@ -69,7 +69,7 @@ export default function Home() {
             alt="MilkyMist hero background"
             width={5760}
             height={2800}
-            priority
+            preload
             sizes="100vw"
             className="h-auto w-full"
           />
@@ -129,7 +129,6 @@ export default function Home() {
                   src={recipe.image}
                   alt={recipe.title}
                   fill
-                  unoptimized
                   sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
                   className="object-cover"
                 />

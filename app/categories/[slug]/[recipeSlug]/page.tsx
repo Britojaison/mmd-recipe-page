@@ -65,7 +65,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
             alt="MilkyMist home"
             width={572}
             height={220}
-            priority
             className="h-auto w-[60px] sm:w-[75px] md:w-[100px]"
           />
         </Link>
@@ -78,8 +77,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
             alt={sharedRecipeHero.alt}
             width={sharedRecipeHero.width}
             height={sharedRecipeHero.height}
-            priority
-            unoptimized
+            preload
             sizes="100vw"
             className="h-auto w-full"
           />
@@ -104,7 +102,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
             alt={recipe.alt ?? recipe.title}
             width={1516}
             height={1276}
-            unoptimized
             sizes="(max-width: 1024px) 100vw, 48vw"
             className="h-auto w-full object-cover"
           />
@@ -153,7 +150,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
                 alt="MilkyMist recipe preparation visual"
                 width={5760}
                 height={2000}
-                unoptimized
                 sizes="(max-width: 1024px) 100vw, 34vw"
                 className="h-auto w-full object-cover"
               />
@@ -180,7 +176,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   alt={item.alt ?? item.title}
                   width={1516}
                   height={1276}
-                  unoptimized
                   sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
                   className="h-auto w-full object-cover transition duration-500 group-hover:scale-[1.02]"
                 />

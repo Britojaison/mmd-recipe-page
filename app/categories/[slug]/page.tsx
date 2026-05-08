@@ -56,7 +56,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             alt="MilkyMist home"
             width={572}
             height={220}
-            priority
             className="h-auto w-[60px] sm:w-[75px] md:w-[100px]"
           />
         </Link>
@@ -69,8 +68,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             alt={sharedRecipeHero.alt}
             width={sharedRecipeHero.width}
             height={sharedRecipeHero.height}
-            priority
-            unoptimized
+            preload
             sizes="100vw"
             className="h-auto w-full"
           />
@@ -100,7 +98,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                   src={recipe.image}
                   alt={recipe.alt ?? recipe.title}
                   fill
-                  unoptimized
                   sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
                   className="object-cover"
                 />
